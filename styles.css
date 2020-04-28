@@ -1,0 +1,222 @@
+.links:link, .linksP0:link, .linksP1:link, .linksP2:link {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.links:visited, .linksP0:visited, .linksP1:visited, .linksP2:visited {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.links:hover, .linksP0:hover, .linksP1:hover, .linksP2:hover {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.links:active, .linksP0:active, .linksP1:active, .linksP2:active {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.links:hover{
+    font-family: Gigi;
+}
+
+#body0, #body1, #body2{
+    margin: 50px;
+}
+
+.linksP0, .linksP1, .linksP2{
+    text-align: center;
+}
+
+/* HOME */
+
+#body0 {
+    background-color: maroon;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color: chartreuse;
+    font-weight: bold;
+    border: double deeppink;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.headerP0{
+    background-color: maroon;
+    width: 800px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+.headerP1{
+    background-color: indigo;
+    width: 600px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.headerP2{
+    background-color: yellow;
+    width: 1300px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+h1:hover{
+    transform: scale(2);
+}
+
+.distancingWords, .links{
+    margin: 50px;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+}
+
+.distancingWords:hover{
+    background-color: chartreuse;
+}
+
+#six {
+    position: absolute;
+    bottom: 5px;
+    right: 70px;
+    color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#feet {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#arrow{
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.container:hover{
+    transform: scale(7);
+}
+
+
+
+/* PAGE 1 */
+
+#body1{
+    background-color: indigo;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+    color: blueviolet;
+    text-shadow: maroon;
+    font-size: 20px;
+    font-family: "Century751 BT";
+    line-height: 150%;
+    letter-spacing: -1px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    border: 5px solid deeppink;
+}
+
+.distanceLetters{
+    margin-left:900px;
+    color: chartreuse;
+    text-align: center;
+    width: 50%;
+}
+
+.letters{
+    border: 1px solid deeppink;
+    width: 15px;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+}
+
+.letters:hover{
+    transform: scale(3);
+}
+
+.space{
+    color: transparent;
+}
+
+/* PAGE 2*/
+
+#body2 {
+    background-color: yellow;
+}
+
+.coveredWords{
+    color:paleturquoise;
+    background-color: paleturquoise;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 150%;
+}
+
+.coveredWords:hover{
+    background-color: transparent;
+}
+
+.imageHeader{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mask, .gloves, .wipes {
+    padding: 13px;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 250px;
+    opacity: 100%;
+    z-index: -1;
+}
+
+.mask:hover, .gloves:hover, .wipes:hover{
+    border: 3px solid blueviolet;
+    opacity: 70%;
+    padding: 10px;
+}
+
